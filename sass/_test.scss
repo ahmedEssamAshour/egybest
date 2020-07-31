@@ -1,0 +1,20 @@
+    //gulp filewatcher
+    //aSTYLE($color, $size ,$font-weight)
+    //banner style
+    //TextStyle($color, $txt-align, $size, $linh, $fw,$font-family)
+    //border-BG($border,$border-radus,$bg)
+    @import '_bodyS.scss';
+    .login {
+        height: 100vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        .bg_login {
+            @include w-h(100%, 100%);
+            @include posA-TL(0, 0);
+            background: linear-gradient(rgba(white, 0.4), rgba(white, 0.4)), url("../img/bg.jpg");
+            filter: blur(5px);
+        }
+    }
